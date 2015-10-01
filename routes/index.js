@@ -4,7 +4,7 @@ var unirest = require('unirest');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.redirect('/books');
 });
 
 router.get('/books', function(req, res) {
